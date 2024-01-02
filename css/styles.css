@@ -35,8 +35,8 @@ body {
     font-style: normal;
 }
 
-.link.hero-btn :hover, 
-.link .hero-btn :focus {
+.link :hover, 
+.link :focus {
     color: #404BBF;
 }
 
