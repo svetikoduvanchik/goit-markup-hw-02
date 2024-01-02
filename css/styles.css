@@ -1,4 +1,74 @@
 body {
-    background-color: teal;
-    color: #fff;
+    font-family:'Roboto', 'Raleway', sans-serif;
+    color: #2E2F42;
+    background-color: #FCFCFC;
+    font-size: 16px;
+    /* line-height: ; */
 }
+/*logo*/
+.wort-logo {
+    text-decoration: none;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 2;
+    font-weight: 700;
+}
+.link-logo {
+    text-decoration: none;
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 2;
+    font-weight: 700;
+}
+.header-accent {
+    color: #2E2F42;
+}
+.link {
+    text-decoration: none;
+}
+
+.header-address-list {
+    font-style: normal;
+}
+
+.link.hero-btn :hover, 
+.link .hero-btn :focus {
+    color: #404BBF;
+}
+
+/*Шапка сайта.Навігація*/
+ul {
+    list-style: none;
+}
+
+/*Hero*/
+.hero-subject {
+    font-size: 56px;   
+    line-height: 2;
+    font-weight: 700;
+}
+
+.hero-btn {
+    cursor: pointer;
+}
+
+/* .hero-btn :hover,
+.hero-btn :focus {
+    color: #404BBF;
+} */
+
+h2 {
+    font-size: 36px;
+    line-height: 2;
+    font-weight: 700;
+}
+h3 {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+}
+/* feature */
