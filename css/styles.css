@@ -32,13 +32,19 @@ body {
 .link {
     text-decoration: none;
 }
-
-.heder-ithem {
+.header-ithem a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+/* .heder-ithem {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+} */
 
 .heder-ithem:hover,
 .heder-ithem:focus {
@@ -120,6 +126,10 @@ h3 {
     background-color:#F4F4FD;
 }
 
+.feature-title {
+    line-height: 1.11
+}
+
 .feature-subtitle {
     line-height: 1.2;
     font-weight: 500;
@@ -134,7 +144,7 @@ h3 {
 .team-title {
     color: #2e2f42;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -157,7 +167,7 @@ h3 {
 
 .portfolio-title {
     /* font-size: 36px; */
-    line-height: 1.2;
+    line-height: 1.11;
     font-weight: 500;
     letter-spacing: 0.02em;
     color:#2e2f42;
