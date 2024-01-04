@@ -49,6 +49,15 @@ body {
     color: #434455;
 }
 
+.header-address-list li:hover,
+.header-address-list li:focus {
+    color: #404bbf;
+}
+
+.header-address-list li {
+    color: #434455;
+}
+
 .header-addres-mail a:hover,
 .header-addres-mail a:focus {
     color: #404bbf;
@@ -70,6 +79,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .header-address:hover,
 .header-address:focus {
     color: #404BBF;
