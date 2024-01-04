@@ -13,7 +13,7 @@ body {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 1.17
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 .link-logo {
@@ -73,26 +73,27 @@ ul {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color:#FFFFFF
+    color:#FFFFFF;
+}
+
+.hero {
+    background-color: #2e2f42;
 }
 
 .hero-btn {
     cursor: pointer;
+    color: #FFFFFF;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em
-    
-}
-.button {
-    color:#FFFFFF
+    letter-spacing: 0.04em;   
 }
 
-.hero-btn :hover,
-.hero-btn :focus {
-    background-colorr: #404BBF;
+.hero-btn:hover,
+.hero-btn:focus {
+    background-colorr:#404BBF;
 }
 
 h2 {
@@ -117,11 +118,33 @@ h3 {
 .team {
     background-color:#F4F4FD;
 }
+
+.feature-title {
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.feature-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .team-title {
-    line-height: 1.11;
+    color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+.team-text {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .portfolio-title {
@@ -129,6 +152,7 @@ h3 {
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
+    color:#2e2f42;
 }
 
 .portfolio {
@@ -136,6 +160,10 @@ h3 {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -146,4 +174,7 @@ h3 {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.footer-logo {
+    color: #F4F4FD;
 }
