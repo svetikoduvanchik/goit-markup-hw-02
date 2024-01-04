@@ -39,6 +39,11 @@ body {
     color: #2e2f42;
 }
 
+.header-ithem a:hover,
+.header-ithem a:focus {
+    color: #404bbf;
+}
+
 /* .heder-ithem {
     font-weight: 500;
     line-height: 1.5;
