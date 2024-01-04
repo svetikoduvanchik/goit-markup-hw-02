@@ -32,6 +32,7 @@ body {
 .link {
     text-decoration: none;
 }
+
 .header-ithem a {
     font-weight: 500;
     line-height: 1.5;
@@ -44,6 +45,14 @@ body {
     color: #404bbf;
 }
 
+.header-addres-mail a {
+    color: #434455;
+}
+
+.header-addres-mail a:hover,
+.header-addres-mail a:focus {
+    color: #404bbf;
+}
 /* .heder-ithem {
     font-weight: 500;
     line-height: 1.5;
