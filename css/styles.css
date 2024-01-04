@@ -45,9 +45,9 @@ body {
     color: #404bbf;
 }
 
-.header-addres-mail a {
+/* .header-addres-mail a {
     color: #434455;
-}
+} */
 
 .header-address-list li:hover,
 .header-address-list li:focus {
@@ -58,10 +58,10 @@ body {
     color: #434455;
 }
 
-.header-addres-mail a:hover,
+/* .header-addres-mail a:hover,
 .header-addres-mail a:focus {
     color: #404bbf;
-}
+} */
 /* .heder-ithem {
     font-weight: 500;
     line-height: 1.5;
@@ -80,10 +80,10 @@ body {
     color: #434455;
 }
 
-.header-address:hover,
+/* .header-address:hover,
 .header-address:focus {
     color: #404BBF;
-}
+} */
 
 .link :hover, 
 .link :focus {
