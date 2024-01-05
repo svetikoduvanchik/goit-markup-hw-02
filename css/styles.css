@@ -35,9 +35,9 @@ body {
     color: #2E2F42;
 } */
 
-.link address {
+/* .link address {
     color: #434455;
-}
+} */
 
 .link {
     text-decoration: none;
@@ -56,9 +56,9 @@ body {
     color: #404bbf;
 }
 
-/* .header-addres-mail a {
+.header-addres-mail a {
     color: #434455;
-} */
+}
 
 /* .header-address-list li:hover,
 .header-address-list li:focus {
