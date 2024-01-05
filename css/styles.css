@@ -65,9 +65,9 @@ body {
     color: #404bbf;
 } */
 
-.header-address-list li {
+/* .header-address-list li {
     color: #434455;
-}
+} */
 
 .header-addres-mail a:hover,
 .header-addres-mail a:focus {
@@ -97,10 +97,7 @@ body {
     color: #434455;
 }
 
-/* .header-address:hover,
-.header-address:focus {
-    color: #404BBF;
-} */
+
 
 .link :hover, 
 .link :focus {
