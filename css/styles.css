@@ -26,11 +26,22 @@ body {
     font-weight: 700;
     letter-spacing: 0.03em;
 }
-.header-accent {
+
+/* .link nav {
     color: #2E2F42;
 }
+
+.link address {
+    color: #2E2F42;
+} */
+
+/* .header-accent {
+    color: #2E2F42;
+} */
+
 .link {
     text-decoration: none;
+    color: #2E2F42;
 }
 
 .header-ithem a {
@@ -49,19 +60,25 @@ body {
     color: #434455;
 } */
 
-.header-address-list li:hover,
+/* .header-address-list li:hover,
 .header-address-list li:focus {
     color: #404bbf;
-}
+} */
 
 .header-address-list li {
     color: #434455;
 }
 
-/* .header-addres-mail a:hover,
+.header-addres-mail a:hover,
 .header-addres-mail a:focus {
     color: #404bbf;
-} */
+}
+
+.header-addres-tel a:hover,
+.header-addres-tel a:focus {
+    color: #404bbf;
+}
+
 /* .heder-ithem {
     font-weight: 500;
     line-height: 1.5;
@@ -133,13 +150,13 @@ h2 {
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-
+/* 
 h3 {
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
-}
+} */
 .p {
     color:#434455;
     line-height: 1.5;
@@ -155,9 +172,11 @@ h3 {
 }
 
 .feature-subtitle {
+    font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 .feature-text {
@@ -169,7 +188,7 @@ h3 {
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.11;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -179,14 +198,23 @@ h3 {
 }
 
 .team-name {
+    font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 .team-text {
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+.portfolio {
+    /* line-height: 1.11; */
+    /* text-align: center; */
+    /* letter-spacing: 0.02em; */
+    text-transform: capitalize;
 }
 
 .portfolio-title {
@@ -198,17 +226,14 @@ h3 {
 }
 
 .portfolio-subtitle {
+    font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
-.portfolio {
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
+
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
